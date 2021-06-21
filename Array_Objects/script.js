@@ -19,10 +19,25 @@ console.log(infos[6]); */
 
 } */
 
-let grupos = {
+/* let grupos = {
     id_jogo: 001,
     data_jogo: 01/12/21,
     numeros_sorteados: [7, 13, 23, 27, 36, 43, 51]
 };
 
 console.log(grupos.numeros_sorteados);
+ */
+
+/* const pessoa = {
+    nome: 'Fernando',
+    sobrenome: 'Rodrigues',
+    idade: 41
+};
+
+console.log(pessoa.nome + ' ' + pessoa.sobrenome); */
+
+class pessoa {
+    pessoa() {
+        
+    }
+}

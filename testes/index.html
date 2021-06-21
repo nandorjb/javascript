@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h2><label for="clima">Selecione o tipo de clima hoje: </label></h2>
+<select id="clima">
+  <option value="">--Faça uma escolha--</option>
+  <option value="ensolarado">Ensolarado</option>
+  <option value="chuvoso">Chuvoso</option>
+  <option value="chuvaforte">Chuva Forte</option>
+  <option value="nublado">Nublado</option>
+  <option value="parcial">Parcialmente Nublado</option>
+</select>
+
+<p></p>
+<p></p>
+<br>
+
+<hr>
+
+<br>
+<div>
+    <label for="campo1">Campo1:</label>
+    <input type="text" name="campo1" id="campo1">
+    <label for="campo2">Campo2:</label>
+    <input type="text" name="campo2" id="campo2">
+    <button onclick="enviar()">Enviar</button>
+    <button onclick="limpar()">Limpar</button>
+</div>
+<br>
+<div id="resultado"></div>
+<br>
+
+<hr>
+
+<br>
+<div>
+    <label>Gerar Números:</label>
+    <button onclick="gerarArray()">Gerar</button>
+    <button onclick="limpar1()">Limpar</button>
+    </div>
+<br>
+<div id="resultado1"></div>
+
+
+
+</body>
+<script src="script.js"></script> 
+</html>
